@@ -14,9 +14,9 @@
 <div class="container">
           <center>
   <ul class="pagination">
-    <li class="page-item"><a class="page-link" href="https://defenders.org/elephant/basic-facts">Defenders</a></li>
-    <li class="page-item"><a class="page-link" href="https://www.worldwildlife.org/species/elephant">WWF</a></li>
-    <li class="page-item"><a class="page-link" href="http://www.awf.org/wildlife-conservation/elephant">AWF</a></li>
+    <li class="page-item"><a class="page-link" href="https://defenders.org/elephant/basic-facts" data-toggle="tooltip" data-placement="bottom" title="This website is the official">Defenders</a></li>
+    <li class="page-item"><a class="page-link" href="https://www.worldwildlife.org/species/elephant" data-toggle="tooltip" data-placement="bottom" title="Hooray!">WWF</a></li>
+    <li class="page-item"><a class="page-link" href="http://www.awf.org/wildlife-conservation/elephant" data-toggle="tooltip" data-placement="bottom" title="Hooray!">AWF</a></li>
   </ul>
     <div class="jumbotron" style="background-color:coral">
       <center>
@@ -66,22 +66,25 @@
   </div>
 </div>
 <div class="container">
-  <h2>Carousel Example</h2>  
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
       <div class="item active">
-        <img src="la.jpg" alt="Los Angeles" style="width:100%;">
+        <img src="https://www.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2017/11/18/National-Politics/Images/Rex_Trump_to_allow_elephant_trophies_9227717A.jpg?t=20170517" alt="Los Angeles" style="width:100%;">
       </div>
       <div class="item">
-        <img src="chicago.jpg" alt="Chicago" style="width:100%;">
+        <img src="http://assets.worldwildlife.org/photos/11552/images/story_full_width/rsz_namibia_will_burrard_lucas_wwf_us_1.jpg?1462219623" alt="Chicago" style="width:100%;">
       </div>
       <div class="item">
-        <img src="ny.jpg" alt="New york" style="width:100%;">
+        <img src="https://img.purch.com/h/1000/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzAzNi85ODgvb3JpZ2luYWwvZWxlcGhhbnRzLmpwZw==" alt="New york" style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Elephas_maximus_%28Bandipur%29.jpg" alt="Chicago" style="width:100%;">
       </div>
     </div>
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -94,5 +97,10 @@
     </a>
   </div>
 </div>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
 </body>
 </html>
