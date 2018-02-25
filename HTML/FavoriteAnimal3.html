@@ -7,11 +7,42 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- 
+ <style>
+  #section1 {padding-top:50px;height:350px;color: #fff;}
+  #section2 {color: #fff;}
+  #section3 {padding-top:10px;height:px;color: #fff;}
+  #section4 {padding-top:10px;color: #000}
+  #section5 {padding-top:10px;height:500px;color: #fff;}
+  </style>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50"><nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">FavoriteAnimal3.html</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Title & Links</a></li>
+          <li><a href="#section2">Other Websites</a></li>
+          <li><a href="#section3">Examples of Elephants</a></li>
+          <li><a href="#section4">Their Decline</a></li>
+          <li><a href="#section5">Pictures</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
 
-<div class="container">
+
+<div id="section1" class="container">
           <center>
   <ul class="pagination">
     <li class="page-item"><a class="page-link" href="https://defenders.org/elephant/basic-facts" data-toggle="tooltip" data-placement="bottom" title="defenders.org is one of the leading organizations to protect wildlife from extinction in the world.">Defenders</a></li>
@@ -23,8 +54,9 @@
       <h1 style="background-color:aqua">Elephant<small> Loxodonta</small></h1></center>
     </div>
 </div>
+
     <nav class="navbar navbar-default">
-  <div class="container-fluid">
+  <div id="section2" class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" >Anmol's Coded Websites</a>
     </div>
@@ -36,7 +68,8 @@
     </ul>
   </div>
 </nav>
-  <div class="row" style="background-color:orange">
+
+  <div id="section3" class="row" style="background-color:orange">
     <div class="col-sm-4">
       <div class="thumbnail">
           <img src="https://c532f75abb9c1c021b8c-e46e473f8aadb72cf2a8ea564b4e6a76.ssl.cf5.rackcdn.com/2016/08/31/27ti5gwrzr_Julie_Larsen_Maher_3242_African_Elephant_UGA_06_30_10_hr.jpg" alt="Lights" style="width:100%">
@@ -61,11 +94,13 @@
           </div>
       </div>
       </div>
-    </div> <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">About Elephants</button>
+    </div>
+    <div id="section4" class=container>
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Elephant Decline</button>
       <div id="demo" class="collapse">At the turn of the 20th century, there were a few million African elephants and about 100,000 Asian elephants. Today, there are an estimated 450,000 - 700,000 African elephants and between 35,000 - 40,000 wild Asian elephants.
   </div>
 </div>
-<div class="container">
+<div id="section5" class="container">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
